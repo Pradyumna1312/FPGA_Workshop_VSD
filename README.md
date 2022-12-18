@@ -36,70 +36,70 @@ Day 1 can be divide into 3 major parts
  3. Installing Vivado (on Ubuntu)
  4. Implementing Counter Design
  
-# Understanding FPGA Flow
+## Understanding FPGA Flow
 FPGA Flow can be divided into several phases as depicted in the figure
 
 -- figure
 --- source
 
-## Design Entry:
+### Design Entry:
 This phase refers to the conversion of given specifications and constraints into design formats which are accepted by the tool or framework used for further processes. The three type of Modelings which are majorly used 
  1. Behavioral modeling
  2. Dataflow modeling
  3. Structural modeling
 	Most common Design Entry Formats include Verilog and VHDL. This project uses Verilog for Synthesisable RTL Design Entry.
 	
-## Functional Simulation:
+### Functional Simulation:
 This phase involves development of test environment which can be used for verifying the design.
 Testbenches are verilog files which are used for verifying functional integrity of the design and is used in this project.
 
-## Synthesis:
+### Synthesis:
 This phase involves conversion of verilog designs into gate-level netlists which support implementation of the same in the Framework. This step involves input of verilog design files along with constraints files(optional) such as Timing, Pin etc.
 
-## Design Implementation
+### Design Implementation
 This phase involves 3 steps
  1. Translation or Elaboration of the design
  2. Placement
  3. Routing
  
-## Static Timing Analysis
+### Static Timing Analysis
 
-## Bitstream Generation
+### Bitstream Generation
 
 
-# FPGA Architecture
+## FPGA Architecture
 A usual FPGA-Field Programmable Logic Array implements logic designs with the help of Look-up-tables (LUTs), Flip-FLops and Configurable Logic Blocks(CLBs).
 
-# Installing Vivado (on Ubuntu)
+## Installing Vivado (on Ubuntu)
 
-# Implementing Counter Design
+## Implementing Counter Design
 
 # Introduction to VTR Flow and VPR Flow
-# Installation of VTR
-# Installation of VPR
+## Installation of VTR
+## Installation of VPR
 
-## Verifying proper installation
-# Implementing Counter design using VTR-VPR Flow
+### Verifying proper installation
+## Implementing Counter design using VTR-VPR Flow
 
-# Results
+## Results
 
 
 
 # Introduction to RVMyth and its implementation with Vivado flow
-# RVMyth Intro
-# Vivado Implementation
-# Results
+## RVMyth Intro
+## Vivado Implementation
+## Results
 
 
 # Introduction to SOFA - (Skywater Opensource FPGAs) and its implementation using counter as a module
-# Installation of SOFA
-# Verifying proper installation
-# Using SOFA for counter 
-# Results
+## Installation of SOFA
+### Verifying proper installation
+## Using SOFA for counter 
+## Results
 
 # Implementation of RVMyth processor with the help of SOFA
-# SOFA Implementation
-# Results
+## SOFA Implementation
+## Results
 
 
 # Acknowledgements
