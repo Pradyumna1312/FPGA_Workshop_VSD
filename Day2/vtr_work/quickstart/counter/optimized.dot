@@ -1,0 +1,189 @@
+digraph G {
+	ranksep=.25;
+	"up_counter_enable" [shape=triangle];
+	"up_counter_enable" -> "up_counter_nMUX~2"[label="up_counter^enable"];
+	"up_counter_nMUX~2"
+	"up_counter_nMUX~2" -> "up_counter_nMUX~0"[label="up_counter^out~0"];
+	"up_counter_nMUX~0"
+	"up_counter_nMUX~0" -> "up_counter_out~0_FF"[label="up_counter^out~0"];
+	"up_counter_out~0_FF" [shape=box];
+	"up_counter_out~0_FF" -> "up_counter_ADD~4_1"[label="up_counter^out~0"];
+	"up_counter_ADD~4_1"
+	"up_counter_ADD~4_1" -> "up_counter_ADD~4_2";
+	"up_counter_ADD~4_2"
+	"up_counter_ADD~4_2" -> "up_counter_ADD~4_3";
+	"up_counter_ADD~4_3"
+	"up_counter_ADD~4_3" -> "up_counter_ADD~4_4";
+	"up_counter_ADD~4_4"
+	"up_counter_ADD~4_4" -> "up_counter_ADD~4_5";
+	"up_counter_ADD~4_5"
+	"up_counter_ADD~4_5" -> "up_counter_ADD~4_6";
+	"up_counter_ADD~4_6"
+	"up_counter_ADD~4_6" -> "up_counter_ADD~4_7";
+	"up_counter_ADD~4_7"
+	"up_counter_ADD~4_7" -> "up_counter_ADD~4_8";
+	"up_counter_ADD~4_8"
+	"up_counter_ADD~4_8" -> "up_counter_ADD~4_9";
+	"up_counter_ADD~4_9"
+	"up_counter_ADD~4_9" -> "up_counter_ADD~4_10";
+	"up_counter_ADD~4_10"
+	"up_counter_ADD~4_10" -> "up_counter_ADD~4_11";
+	"up_counter_ADD~4_11"
+	"up_counter_ADD~4_11" -> "up_counter_ADD~4_12";
+	"up_counter_ADD~4_12"
+	"up_counter_ADD~4_12" -> "up_counter_ADD~4_13";
+	"up_counter_ADD~4_13"
+	"up_counter_ADD~4_13" -> "up_counter_ADD~4_14";
+	"up_counter_ADD~4_14"
+	"up_counter_ADD~4_14" -> "up_counter_ADD~4_15";
+	"up_counter_ADD~4_15"
+	"up_counter_ADD~4_15" -> "up_counter_ADD~4_16";
+	"up_counter_ADD~4_16"
+	"up_counter_ADD~4_16" -> "up_counter_ADD~4_17";
+	"up_counter_ADD~4_17"
+	"up_counter_ADD~4_17" -> "up_counter_ADD~4_18";
+	"up_counter_ADD~4_18"
+	"up_counter_ADD~4_18" -> "up_counter_ADD~4_19";
+	"up_counter_ADD~4_19"
+	"up_counter_ADD~4_19" -> "up_counter_ADD~4_20";
+	"up_counter_ADD~4_20"
+	"up_counter_ADD~4_20" -> "up_counter_ADD~4_21";
+	"up_counter_ADD~4_21"
+	"up_counter_ADD~4_21" -> "up_counter_ADD~4_22";
+	"up_counter_ADD~4_22"
+	"up_counter_ADD~4_22" -> "up_counter_ADD~4_23";
+	"up_counter_ADD~4_23"
+	"up_counter_ADD~4_23" -> "up_counter_ADD~4_24";
+	"up_counter_ADD~4_24"
+	"up_counter_ADD~4_24" -> "up_counter_ADD~4_25";
+	"up_counter_ADD~4_25"
+	"up_counter_ADD~4_25" -> "up_counter_ADD~4_26";
+	"up_counter_ADD~4_26"
+	"up_counter_ADD~4_26" -> "up_counter_ADD~4_27";
+	"up_counter_ADD~4_27"
+	"up_counter_ADD~4_27" -> "up_counter_ADD~4_28";
+	"up_counter_ADD~4_28"
+	"up_counter_ADD~4_28" -> "up_counter_ADD~4_29";
+	"up_counter_ADD~4_29"
+	"up_counter_ADD~4_29" -> "up_counter_ADD~4_30";
+	"up_counter_ADD~4_30"
+	"up_counter_ADD~4_30" -> "up_counter_ADD~4_31";
+	"up_counter_ADD~4_31"
+	"up_counter_ADD~4_31" -> "up_counter_ADD~4_32";
+	"up_counter_ADD~4_32"
+	"up_counter_ADD~4_32" -> "up_counter_ADD~4_33";
+	"up_counter_ADD~4_33"
+	"up_counter_ADD~4_4" -> "up_counter_nMUX~2"[label="up_counter^out~3"];
+	"up_counter_ADD~4_3" -> "up_counter_nMUX~2"[label="up_counter^out~2"];
+	"up_counter_ADD~4_2" -> "up_counter_nMUX~2"[label="up_counter^out~1"];
+	"up_counter_ADD~4_1" -> "up_counter_nMUX~2"[label="up_counter^out~0"];
+	"up_counter_out~0_FF" -> "up_counter_nMUX~2"[label="up_counter^out~0"];
+	"up_counter_out~0_FF" -> "up_counter_out~0_O";
+	"up_counter_out~0_O" [shape=triangle];
+	"up_counter_nMUX~0" -> "up_counter_out~1_FF"[label="up_counter^out~1"];
+	"up_counter_out~1_FF" [shape=box];
+	"up_counter_out~1_FF" -> "up_counter_ADD~4_2"[label="up_counter^out~1"];
+	"up_counter_out~1_FF" -> "up_counter_nMUX~2"[label="up_counter^out~1"];
+	"up_counter_out~1_FF" -> "up_counter_out~1_O";
+	"up_counter_out~1_O" [shape=triangle];
+	"up_counter_nMUX~0" -> "up_counter_out~2_FF"[label="up_counter^out~2"];
+	"up_counter_out~2_FF" [shape=box];
+	"up_counter_out~2_FF" -> "up_counter_ADD~4_3"[label="up_counter^out~2"];
+	"up_counter_out~2_FF" -> "up_counter_nMUX~2"[label="up_counter^out~2"];
+	"up_counter_out~2_FF" -> "up_counter_out~2_O";
+	"up_counter_out~2_O" [shape=triangle];
+	"up_counter_nMUX~0" -> "up_counter_out~3_FF"[label="up_counter^out~3"];
+	"up_counter_out~3_FF" [shape=box];
+	"up_counter_out~3_FF" -> "up_counter_ADD~4_4"[label="up_counter^out~3"];
+	"up_counter_out~3_FF" -> "up_counter_nMUX~2"[label="up_counter^out~3"];
+	"up_counter_out~3_FF" -> "up_counter_out~3_O";
+	"up_counter_out~3_O" [shape=triangle];
+	"up_counter_nMUX~2" -> "up_counter_nMUX~0"[label="up_counter^out~1"];
+	"up_counter_nMUX~2" -> "up_counter_nMUX~0"[label="up_counter^out~2"];
+	"up_counter_nMUX~2" -> "up_counter_nMUX~0"[label="up_counter^out~3"];
+	"up_counter_enable" -> "up_counter_nMUX~2_lNOT~3"[label="up_counter^enable"];
+	"up_counter_nMUX~2_lNOT~3"
+	"up_counter_nMUX~2_lNOT~3" -> "up_counter_nMUX~2";
+	"up_counter_clk" [shape=triangle];
+	"up_counter_clk" -> "up_counter_out~0_FF";
+	"up_counter_clk" -> "up_counter_out~1_FF";
+	"up_counter_clk" -> "up_counter_out~2_FF";
+	"up_counter_clk" -> "up_counter_out~3_FF";
+	"up_counter_reset" [shape=triangle];
+	"up_counter_reset" -> "up_counter_nMUX~0"[label="up_counter^reset"];
+	"up_counter_reset" -> "up_counter_nMUX~0_lNOT~1"[label="up_counter^reset"];
+	"up_counter_nMUX~0_lNOT~1"
+	"up_counter_nMUX~0_lNOT~1" -> "up_counter_nMUX~0";
+	"up_counter_ZGZ"
+	"up_counter_ZGZ" -> "up_counter_nMUX~0"[label="up_counter^out~0"];
+	"up_counter_ZGZ" -> "up_counter_nMUX~0"[label="up_counter^out~1"];
+	"up_counter_ZGZ" -> "up_counter_nMUX~0"[label="up_counter^out~2"];
+	"up_counter_ZGZ" -> "up_counter_nMUX~0"[label="up_counter^out~3"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_2"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_3"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_4"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_5"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_6"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_7"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_8"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_9"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_10"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_11"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_12"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_13"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_14"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_15"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_16"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_17"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_18"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_19"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_20"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_21"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_22"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_23"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_24"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_25"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_26"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_27"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_28"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_29"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_30"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_31"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_32"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_5"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_6"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_7"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_8"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_9"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_10"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_11"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_12"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_13"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_14"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_15"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_16"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_17"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_18"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_19"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_20"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_21"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_22"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_23"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_24"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_25"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_26"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_27"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_28"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_29"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_30"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_31"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_32"[label="up_counter^ZGZ"];
+	"up_counter_ZGZ" -> "up_counter_ADD~4_0";
+	"up_counter_ADD~4_0"
+	"up_counter_ADD~4_0" -> "up_counter_ADD~4_1";
+	"up_counter_ZGZ" -> "up_counter_ADD~4_33";
+	"up_counter_ZGZ" -> "up_counter_ADD~4_33";
+	"up_counter_OVC"
+	"up_counter_OVC" -> "up_counter_ADD~4_1"[label="up_counter^OVC"];
+	"up_counter_OVC" -> "up_counter_ADD~4_0";
+}

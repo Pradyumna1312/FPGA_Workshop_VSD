@@ -1,0 +1,5 @@
+vpr_status=success
+vpr_seconds=0
+rundir=/home/pradyumna/Verilog_files/VSD-IAT/Day2/vtr_work/quickstart/counter
+hostname=pradyumna-Inspiron-5584
+error=
