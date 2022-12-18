@@ -27,7 +27,7 @@ This Repository contains basic details related to the usage of OpenFPGA Framewor
 	- [Results]()
 - [Acknowledgements](#Acknowledgements)
 
-` NOTE: The workshop materials can be found [here](https://github.com/nandithaec/fpga_workshop_collaterals)`
+* NOTE: The workshop materials can be found [here](https://github.com/nandithaec/fpga_workshop_collaterals)
 
 # Day1 - FPGA and Vivado Flow
 Day 1 can be divide into 3 major parts
