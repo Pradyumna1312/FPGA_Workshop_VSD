@@ -77,9 +77,9 @@ Enter the commands:
 		sudo adduser $USER dialout 	
 
 ## Implementing Counter Design
-The counter designed for this demo is a simple 8-bit Up-Counter. 
+The counter designed for this demo is a simple 8-bit Up-Counter with Clock division circuit.
+Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day1#readme) for detailed results
 
-The design of the counter is as shown.
 
 # Introduction to VTR Flow using VPR
 - The Verilog-to-Routing (VTR) project is a world-wide collaborative effort to provide an open-source framework for conducting FPGA architecture and CAD research and development. The VTR design flow takes as input a Verilog description of a digital circuit, and a description of the target FPGA architecture. It then performs:
