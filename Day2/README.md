@@ -76,6 +76,11 @@ Adding an SDC file changes the command into considerations run the following com
 
 ## Results
 		
+![Total Slack](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day2/Total_Slack_rep.png)
+![Utilisation Report -1](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day2/Util_VTR.png)
+![Utilisation Report -2](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day2/Utilisation_rep.png)
+![Routing Info](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day2/route_chara.png)
+![Total Routing Info](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day2/route_rep.png)
 
 		
 
