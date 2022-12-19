@@ -47,3 +47,5 @@ So how does it get configured? These CLBs contain Logic gates and LUTs which bri
 
 
 # Results
+Schematic of the Design: 
+![Counter_RTL](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day1/Counter-with-Clkdiv.png)
