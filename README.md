@@ -13,19 +13,13 @@ This Repository contains basic details related to the usage of OpenFPGA Framewor
 - [Introduction to VTR Flow and VPR Flow -> Day-2](#introduction-to-vtr-flow-using-vpr)
 	- [Installation of VTR](#installation-of-vtr)
 	- [Using VTR for counter](#implementing-counter-design-using-vtr---vpr-flow)
-	- [Results](#results)
 - [Introduction to RVMyth and its implementation with Vivado flow -> Day-3](#introduction-to-rvmyth-and-its-implementation-with-vivado-flow)
-	- [RVMyth Intro](#rvmyth-introduction)
-	- [Vivado Implementation]()
-	- [Results]()
-- [Introduction to SOFA - (Skywater Opensource FPGAs) and its implementation using counter as a module -> Day-4](#Day4)
-	- [Installation of SOFA](#)
-	- [Verifying proper installation](#)
-	- [Using SOFA for counter](#)
-	- [Results](#)
-- [Implementation of RVMyth processor with the help of SOFA -> Day-5](#Day5)
-	- [SOFA Implementation]()
-	- [Results]()
+	- [RVMyth Intro](#rvmyth-intro)
+	- [Vivado Implementation](#vivado-implementation)
+- [Introduction to SOFA - (Skywater Opensource FPGAs) -> Day-4](#introduction-to-sofa---skywater-opensource-fpgas)
+	- [Installation of SOFA](#installing-sofa)
+	- [Using SOFA for counter](#using-sofa-for-counter)
+- [Implementation of RVMyth processor with the help of SOFA -> Day-5](#implementation-of-rvmyth-processor-with-sofa)
 - [Acknowledgements](#acknowledgements)
 
 * NOTE: The workshop materials can be found [here](https://github.com/nandithaec/fpga_workshop_collaterals)
@@ -116,27 +110,53 @@ Ideally no errors should pop-up
 
 ## Implementing Counter design using VTR-VPR Flow
 
-
-## Results
-
+The counter designed for this demo is a simple 4-bit Up-Counter
+.
+Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day2#readme) for detailed results
 
 
 # Introduction to RVMyth and its implementation with Vivado flow
+RVMyth code can be obtained from [here](https://github.com/nandithaec/fpga_workshop_collaterals) also in Day 3. This code is taken as a reference and the Design flow is implemented on it.
+
 ## RVMyth Intro
+A RISC-V ISA is defined as a base integer ISA, which must be present in any implementation, plus optional extensions to the base ISA. Each base integer instruction set is characterized by
+   - Width of the integer registers (XLEN)
+   - Corresponding size of the address space
+   - Number of integer registers (32 in RISC-V)
+   
+More details on RISC-V ISA can be obtained [here](https://github.com/shivanishah269/risc-v-core).
+
 ## Vivado Implementation
-## Results
+The counter designed for this demo is a simple 4-bit Up-Counter.
+
+Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day3#readme) for detailed results
 
 
-# Introduction to SOFA - (Skywater Opensource FPGAs) 
+# Introduction to SOFA - Skywater Opensource FPGAs
 
-## Installation of SOFA
+## Installing SOFA
+SOFA can be installed by directly cloning the directory from github. Another important fact is that OpenFPGA is a must condition for SOFA to run. 
+Therefore,
+
+		git clone https://github.com/LNIS-Projects/OpenFPGA.git
+		cd OpenFPGA
+		make all
+
+Now, installing SOFA
+
+		export OPENFPGA_PATH=<path_to_openfpga_root>
+		# Clone the SOFA repository
+		git clone https://github.com/lnis-uofu/SOFA.git
+
 ### Verifying proper installation
 ## Using SOFA for counter 
-## Results
+The counter designed for this demo is a simple 8-bit Up-Counter with Clock division circuit.
+Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day4#readme) for detailed results
+
 
 # Implementation of RVMyth processor with SOFA
-## SOFA Implementation
-## Results
+Same as counter any other verilog file can be run through OpenFPGA. So, taking RVMyth as the verilog file the whole flow is run.
+SOFA Implementation of RVMyth design can be referred [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day5#readme).
 
 
 # Acknowledgements
