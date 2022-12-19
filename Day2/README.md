@@ -52,11 +52,11 @@ Using automated flow for running VPR of tseng requires following command
 
 If GUI is required to easily analyse then,
 
-	$VTR_ROOT/vpr/vpr\ 
-		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \ 
-		$VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif  \ 
-		--route_chan_width 100 \ 
-		--disp on
+	$VTR_ROOT/vpr/vpr \
+	$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
+	$VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif  \
+	--route_chan_width 100 \
+	--disp on
 		
 Now running counter using VTR Flow will need the following command
 		
