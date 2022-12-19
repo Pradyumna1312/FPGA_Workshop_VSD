@@ -41,10 +41,19 @@ A usual FPGA-Field Programmable Logic Array implements logic designs with the he
 Flip flops are bistable monovibrators which can be used for storing 1 bit of data with the help of control signals commonly clock and reset. These Flip-Flops are used to store bits which configure the FPGA.
 
 So what are CLBs? LUTs?
+For more details 
 CLBs stands for Configurable Logic Blocks which s the name implies are Logic Blocks which can be configured by giving some inputs as it was modeled. 
 So how does it get configured? These CLBs contain Logic gates and LUTs which brings in the quality of reconfigurability.
 
+# Implementation
+
 
 # Results
-Schematic of the Design: 
+### Simultaion of the Test Bench:
+![Simulation](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day1/sim_res.png)
+### Schematic of the Design: 
 ![Counter_RTL](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day1/Counter-with-Clkdiv.png)
+### Power Report:
+![Power_Rep](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day1/power.png)
+### Timing Report:
+![]()
