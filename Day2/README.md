@@ -37,7 +37,7 @@ The counter designed for this demo is a simple 4-bit Up-Counter.
 
 For starting the flow we need to first assign 
 		
-		$VTR_ROOT=<VTR downloaded path>
+	VTR_ROOT=<VTR downloaded path>
 
 Verify the VPR functioning by running tseng_en circuit on Earch architecture. VPR Flow can be run in two ways 
  1. Manual 
@@ -45,14 +45,14 @@ Verify the VPR functioning by running tseng_en circuit on Earch architecture. VP
 
 Using automated flow for running VPR of tseng requires following command 
 
-		$VTR_ROOT/vpr/vpr  \
+	$VTR_ROOT/vpr/vpr  \
 		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
 		$VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif   \
 		--route_chan_width 100
 
 If GUI is required to easily analyse then,
 
-		$VTR_ROOT/vpr/vpr\
+	$VTR_ROOT/vpr/vpr\
 		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
 		$VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif  \
 		--route_chan_width 100 \
@@ -60,7 +60,7 @@ If GUI is required to easily analyse then,
 		
 Now running counter using VTR Flow will need the following command
 		
-		$VTR_ROOT/vtr_flow/scripts/run_vtr_flow.py \
+	$VTR_ROOT/vtr_flow/scripts/run_vtr_flow.py \
     		$VTR_ROOT/doc/src/quickstart/counter.v \
     		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
     		-temp_dir . \
@@ -68,7 +68,7 @@ Now running counter using VTR Flow will need the following command
 		
 Adding an SDC file changes the command into considerations run the following command after running the previous one
 
-		VTR_ROOT/vpr/vpr   \
+	VTR_ROOT/vpr/vpr   \
 		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml  \
 		< >/osfpga/vtr_work/quickstart/counter_earch/counter.pre-vpr.blif   \
 		--route_chan_width 100   \
