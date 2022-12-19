@@ -1,0 +1,21 @@
+#Unconstrained hold timing startpoint/endpoint
+
+timing_node_id node_type node_name
+-------------- --------- ---------
+0 .input up_counter^enable.inpad[0]
+1 .input up_counter^clk.inpad[0]
+2 .input up_counter^reset.inpad[0]
+23 .latch up_counter^out~0_FF.Q[0]
+24 .latch up_counter^out~3_FF.Q[0]
+25 .latch up_counter^out~2_FF.Q[0]
+26 .latch up_counter^out~1_FF.Q[0]
+55 .output out:up_counter^out~0.outpad[0]
+56 .output out:up_counter^out~3.outpad[0]
+57 .output out:up_counter^out~2.outpad[0]
+58 .output out:up_counter^out~1.outpad[0]
+59 .latch up_counter^out~0_FF.D[0]
+60 .latch up_counter^out~1_FF.D[0]
+61 .latch up_counter^out~2_FF.D[0]
+62 .latch up_counter^out~3_FF.D[0]
+
+#End of unconstrained hold startpoint/endpoint report

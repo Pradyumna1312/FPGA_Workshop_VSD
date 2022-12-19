@@ -1,0 +1,95 @@
+# Benchmark "up_counter" written by ABC on Sat Dec 17 23:18:56 2022 
+
+.model up_counter 
+
+.inputs up_counter^enable up_counter^clk up_counter^reset 
+
+.outputs up_counter^out~0 up_counter^out~1 up_counter^out~2 up_counter^out~3 
+
+
+.latch n22 up_counter^out~0_FF re up_counter^clk 0 
+
+.latch n27 up_counter^out~3_FF re up_counter^clk 0 
+
+.latch n32 up_counter^out~2_FF re up_counter^clk 0 
+
+.latch n37 up_counter^out~1_FF re up_counter^clk 0 
+
+
+
+.subckt adder a[0]=up_counter^out~0_FF b[0]=vcc cin[0]=up_counter^ADD~4-0[0] cout[0]=up_counter^ADD~4-1[0] \
+ sumout[0]=up_counter^ADD~4-1[1] 
+
+.subckt adder a[0]=up_counter^out~1_FF b[0]=gnd cin[0]=up_counter^ADD~4-1[0] cout[0]=up_counter^ADD~4-2[0] \
+ sumout[0]=up_counter^ADD~4-2[1] 
+
+.subckt adder a[0]=up_counter^out~2_FF b[0]=gnd cin[0]=up_counter^ADD~4-2[0] cout[0]=up_counter^ADD~4-3[0] \
+ sumout[0]=up_counter^ADD~4-3[1] 
+
+.subckt adder a[0]=up_counter^out~3_FF b[0]=gnd cin[0]=up_counter^ADD~4-3[0] cout[0]=up_counter^ADD~4-4[0] \
+ sumout[0]=up_counter^ADD~4-4[1] 
+
+.subckt adder a[0]=vcc b[0]=gnd cin[0]=unconn cout[0]=up_counter^ADD~4-0[0] sumout[0]=up_counter^ADD~4-0~dummy_output~0~1 
+
+
+
+.names up_counter^out~0_FF up_counter^ADD~4-1[1] up_counter^reset up_counter^enable n22 
+-101 1 
+1-00 1 
+
+.names up_counter^out~3_FF up_counter^ADD~4-4[1] up_counter^reset up_counter^enable n27 
+-101 1 
+1-00 1 
+
+.names up_counter^out~2_FF up_counter^ADD~4-3[1] up_counter^reset up_counter^enable n32 
+-101 1 
+1-00 1 
+
+.names up_counter^out~1_FF up_counter^ADD~4-2[1] up_counter^reset up_counter^enable n37 
+-101 1 
+1-00 1 
+
+.names vcc 
+1 
+
+.names gnd 
+0 
+
+.names unconn 
+0 
+
+.names up_counter^out~0_FF up_counter^out~0 
+1 1 
+
+.names up_counter^out~1_FF up_counter^out~1 
+1 1 
+
+.names up_counter^out~2_FF up_counter^out~2 
+1 1 
+
+.names up_counter^out~3_FF up_counter^out~3 
+1 1 
+
+
+.end 
+
+
+
+.model adder 
+
+.inputs a[0] b[0] cin[0] 
+
+.outputs cout[0] sumout[0] 
+
+.blackbox 
+
+
+.end 
+
+
+
+.model CLOCK_GATING
+.inputs I
+.blackbox
+.end
+

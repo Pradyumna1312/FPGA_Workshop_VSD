@@ -1,0 +1,13 @@
+Netlist_File: counter.net Netlist_ID: SHA256:b0baed73c49b93dfe30d30c99893aefbef145caaadc75bdfedf6456e646b5ee8
+Array size: 3 x 3 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+up_counter^ADD~4-0[0]	1	1	0	#0
+out:up_counter^out~0	1	2	1	#1
+out:up_counter^out~1	0	1	6	#2
+out:up_counter^out~2	0	1	1	#3
+out:up_counter^out~3	0	1	7	#4
+up_counter^enable	1	0	6	#5
+up_counter^clk	1	2	6	#6
+up_counter^reset	1	0	4	#7

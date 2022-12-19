@@ -1,0 +1,1377 @@
+#Timing report of worst 49 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: tin_pv10_6_6_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv10_6_6_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv10_6_6_.inpad[0] (.input)                                  0.000     0.000
+pv10_6_6_.in[0] (.names)                                         1.338     1.338
+pv10_6_6_.out[0] (.names)                                        0.195     1.533
+out:pv10_6_6_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 2
+Startpoint: tin_pv1_0_0_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv1_0_0_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv1_0_0_.inpad[0] (.input)                                   0.000     0.000
+pv1_0_0_.in[0] (.names)                                          1.338     1.338
+pv1_0_0_.out[0] (.names)                                         0.195     1.533
+out:pv1_0_0_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 3
+Startpoint: tin_pv2_6_6_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv2_6_6_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv2_6_6_.inpad[0] (.input)                                   0.000     0.000
+pv2_6_6_.in[0] (.names)                                          1.338     1.338
+pv2_6_6_.out[0] (.names)                                         0.195     1.533
+out:pv2_6_6_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 4
+Startpoint: tin_pv11_2_2_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv11_2_2_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv11_2_2_.inpad[0] (.input)                                  0.000     0.000
+pv11_2_2_.in[0] (.names)                                         1.338     1.338
+pv11_2_2_.out[0] (.names)                                        0.195     1.533
+out:pv11_2_2_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 5
+Startpoint: tin_pv4_1_1_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv4_1_1_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv4_1_1_.inpad[0] (.input)                                   0.000     0.000
+pv4_1_1_.in[0] (.names)                                          1.338     1.338
+pv4_1_1_.out[0] (.names)                                         0.195     1.533
+out:pv4_1_1_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 6
+Startpoint: tin_pv4_3_3_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv4_3_3_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv4_3_3_.inpad[0] (.input)                                   0.000     0.000
+pv4_3_3_.in[0] (.names)                                          1.338     1.338
+pv4_3_3_.out[0] (.names)                                         0.195     1.533
+out:pv4_3_3_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 7
+Startpoint: tin_pv6_6_6_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv6_6_6_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv6_6_6_.inpad[0] (.input)                                   0.000     0.000
+pv6_6_6_.in[0] (.names)                                          1.338     1.338
+pv6_6_6_.out[0] (.names)                                         0.195     1.533
+out:pv6_6_6_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 8
+Startpoint: tin_pv10_4_4_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv10_4_4_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv10_4_4_.inpad[0] (.input)                                  0.000     0.000
+pv10_4_4_.in[0] (.names)                                         1.338     1.338
+pv10_4_4_.out[0] (.names)                                        0.195     1.533
+out:pv10_4_4_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 9
+Startpoint: tin_pv2_0_0_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv2_0_0_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv2_0_0_.inpad[0] (.input)                                   0.000     0.000
+pv2_0_0_.in[0] (.names)                                          1.338     1.338
+pv2_0_0_.out[0] (.names)                                         0.195     1.533
+out:pv2_0_0_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 10
+Startpoint: tin_pv10_5_5_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv10_5_5_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv10_5_5_.inpad[0] (.input)                                  0.000     0.000
+pv10_5_5_.in[0] (.names)                                         1.338     1.338
+pv10_5_5_.out[0] (.names)                                        0.195     1.533
+out:pv10_5_5_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 11
+Startpoint: tin_pv1_7_7_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv1_7_7_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv1_7_7_.inpad[0] (.input)                                   0.000     0.000
+pv1_7_7_.in[0] (.names)                                          1.338     1.338
+pv1_7_7_.out[0] (.names)                                         0.195     1.533
+out:pv1_7_7_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 12
+Startpoint: tin_pv11_4_4_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv11_4_4_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv11_4_4_.inpad[0] (.input)                                  0.000     0.000
+pv11_4_4_.in[0] (.names)                                         1.338     1.338
+pv11_4_4_.out[0] (.names)                                        0.195     1.533
+out:pv11_4_4_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 13
+Startpoint: tin_pv4_7_7_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv4_7_7_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv4_7_7_.inpad[0] (.input)                                   0.000     0.000
+pv4_7_7_.in[0] (.names)                                          1.338     1.338
+pv4_7_7_.out[0] (.names)                                         0.195     1.533
+out:pv4_7_7_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 14
+Startpoint: tin_pv2_7_7_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv2_7_7_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv2_7_7_.inpad[0] (.input)                                   0.000     0.000
+pv2_7_7_.in[0] (.names)                                          1.338     1.338
+pv2_7_7_.out[0] (.names)                                         0.195     1.533
+out:pv2_7_7_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 15
+Startpoint: tin_pv10_0_0_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv10_0_0_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv10_0_0_.inpad[0] (.input)                                  0.000     0.000
+pv10_0_0_.in[0] (.names)                                         1.338     1.338
+pv10_0_0_.out[0] (.names)                                        0.195     1.533
+out:pv10_0_0_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 16
+Startpoint: tin_pv11_0_0_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv11_0_0_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv11_0_0_.inpad[0] (.input)                                  0.000     0.000
+pv11_0_0_.in[0] (.names)                                         1.338     1.338
+pv11_0_0_.out[0] (.names)                                        0.195     1.533
+out:pv11_0_0_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 17
+Startpoint: tin_pv4_6_6_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv4_6_6_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv4_6_6_.inpad[0] (.input)                                   0.000     0.000
+pv4_6_6_.in[0] (.names)                                          1.338     1.338
+pv4_6_6_.out[0] (.names)                                         0.195     1.533
+out:pv4_6_6_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 18
+Startpoint: tin_pv1_3_3_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv1_3_3_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv1_3_3_.inpad[0] (.input)                                   0.000     0.000
+pv1_3_3_.in[0] (.names)                                          1.338     1.338
+pv1_3_3_.out[0] (.names)                                         0.195     1.533
+out:pv1_3_3_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 19
+Startpoint: tin_pv6_3_3_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv6_3_3_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv6_3_3_.inpad[0] (.input)                                   0.000     0.000
+pv6_3_3_.in[0] (.names)                                          1.338     1.338
+pv6_3_3_.out[0] (.names)                                         0.195     1.533
+out:pv6_3_3_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 20
+Startpoint: tin_pv1_6_6_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv1_6_6_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv1_6_6_.inpad[0] (.input)                                   0.000     0.000
+pv1_6_6_.in[0] (.names)                                          1.338     1.338
+pv1_6_6_.out[0] (.names)                                         0.195     1.533
+out:pv1_6_6_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 21
+Startpoint: tin_pv2_2_2_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv2_2_2_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv2_2_2_.inpad[0] (.input)                                   0.000     0.000
+pv2_2_2_.in[0] (.names)                                          1.338     1.338
+pv2_2_2_.out[0] (.names)                                         0.195     1.533
+out:pv2_2_2_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 22
+Startpoint: tin_pv2_1_1_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv2_1_1_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv2_1_1_.inpad[0] (.input)                                   0.000     0.000
+pv2_1_1_.in[0] (.names)                                          1.338     1.338
+pv2_1_1_.out[0] (.names)                                         0.195     1.533
+out:pv2_1_1_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 23
+Startpoint: tin_pv1_2_2_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv1_2_2_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv1_2_2_.inpad[0] (.input)                                   0.000     0.000
+pv1_2_2_.in[0] (.names)                                          1.338     1.338
+pv1_2_2_.out[0] (.names)                                         0.195     1.533
+out:pv1_2_2_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 24
+Startpoint: tin_pv1_4_4_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv1_4_4_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv1_4_4_.inpad[0] (.input)                                   0.000     0.000
+pv1_4_4_.in[0] (.names)                                          1.338     1.338
+pv1_4_4_.out[0] (.names)                                         0.195     1.533
+out:pv1_4_4_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 25
+Startpoint: tin_pv4_5_5_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv4_5_5_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv4_5_5_.inpad[0] (.input)                                   0.000     0.000
+pv4_5_5_.in[0] (.names)                                          1.338     1.338
+pv4_5_5_.out[0] (.names)                                         0.195     1.533
+out:pv4_5_5_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 26
+Startpoint: tin_pv1_1_1_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv1_1_1_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv1_1_1_.inpad[0] (.input)                                   0.000     0.000
+pv1_1_1_.in[0] (.names)                                          1.338     1.338
+pv1_1_1_.out[0] (.names)                                         0.195     1.533
+out:pv1_1_1_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 27
+Startpoint: tin_pv4_4_4_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv4_4_4_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv4_4_4_.inpad[0] (.input)                                   0.000     0.000
+pv4_4_4_.in[0] (.names)                                          1.338     1.338
+pv4_4_4_.out[0] (.names)                                         0.195     1.533
+out:pv4_4_4_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 28
+Startpoint: tin_pready_0_0_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pready_0_0_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pready_0_0_.inpad[0] (.input)                                0.000     0.000
+pready_0_0_.in[0] (.names)                                       1.338     1.338
+pready_0_0_.out[0] (.names)                                      0.195     1.533
+out:pready_0_0_.outpad[0] (.output)                              1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 29
+Startpoint: tin_pv11_5_5_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv11_5_5_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv11_5_5_.inpad[0] (.input)                                  0.000     0.000
+pv11_5_5_.in[0] (.names)                                         1.338     1.338
+pv11_5_5_.out[0] (.names)                                        0.195     1.533
+out:pv11_5_5_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 30
+Startpoint: tin_pv10_2_2_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv10_2_2_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv10_2_2_.inpad[0] (.input)                                  0.000     0.000
+pv10_2_2_.in[0] (.names)                                         1.338     1.338
+pv10_2_2_.out[0] (.names)                                        0.195     1.533
+out:pv10_2_2_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 31
+Startpoint: tin_pv10_1_1_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv10_1_1_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv10_1_1_.inpad[0] (.input)                                  0.000     0.000
+pv10_1_1_.in[0] (.names)                                         1.338     1.338
+pv10_1_1_.out[0] (.names)                                        0.195     1.533
+out:pv10_1_1_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 32
+Startpoint: tin_pv11_3_3_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv11_3_3_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv11_3_3_.inpad[0] (.input)                                  0.000     0.000
+pv11_3_3_.in[0] (.names)                                         1.338     1.338
+pv11_3_3_.out[0] (.names)                                        0.195     1.533
+out:pv11_3_3_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 33
+Startpoint: tin_pv6_5_5_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv6_5_5_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv6_5_5_.inpad[0] (.input)                                   0.000     0.000
+pv6_5_5_.in[0] (.names)                                          1.338     1.338
+pv6_5_5_.out[0] (.names)                                         0.195     1.533
+out:pv6_5_5_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 34
+Startpoint: tin_pv1_5_5_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv1_5_5_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv1_5_5_.inpad[0] (.input)                                   0.000     0.000
+pv1_5_5_.in[0] (.names)                                          1.338     1.338
+pv1_5_5_.out[0] (.names)                                         0.195     1.533
+out:pv1_5_5_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 35
+Startpoint: tin_pv4_0_0_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv4_0_0_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv4_0_0_.inpad[0] (.input)                                   0.000     0.000
+pv4_0_0_.in[0] (.names)                                          1.338     1.338
+pv4_0_0_.out[0] (.names)                                         0.195     1.533
+out:pv4_0_0_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 36
+Startpoint: tin_pv11_7_7_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv11_7_7_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv11_7_7_.inpad[0] (.input)                                  0.000     0.000
+pv11_7_7_.in[0] (.names)                                         1.338     1.338
+pv11_7_7_.out[0] (.names)                                        0.195     1.533
+out:pv11_7_7_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 37
+Startpoint: tin_pv6_0_0_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv6_0_0_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv6_0_0_.inpad[0] (.input)                                   0.000     0.000
+pv6_0_0_.in[0] (.names)                                          1.338     1.338
+pv6_0_0_.out[0] (.names)                                         0.195     1.533
+out:pv6_0_0_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 38
+Startpoint: tin_pv10_7_7_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv10_7_7_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv10_7_7_.inpad[0] (.input)                                  0.000     0.000
+pv10_7_7_.in[0] (.names)                                         1.338     1.338
+pv10_7_7_.out[0] (.names)                                        0.195     1.533
+out:pv10_7_7_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 39
+Startpoint: tin_pv6_1_1_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv6_1_1_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv6_1_1_.inpad[0] (.input)                                   0.000     0.000
+pv6_1_1_.in[0] (.names)                                          1.338     1.338
+pv6_1_1_.out[0] (.names)                                         0.195     1.533
+out:pv6_1_1_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 40
+Startpoint: tin_pv11_1_1_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv11_1_1_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv11_1_1_.inpad[0] (.input)                                  0.000     0.000
+pv11_1_1_.in[0] (.names)                                         1.338     1.338
+pv11_1_1_.out[0] (.names)                                        0.195     1.533
+out:pv11_1_1_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 41
+Startpoint: tin_pv2_4_4_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv2_4_4_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv2_4_4_.inpad[0] (.input)                                   0.000     0.000
+pv2_4_4_.in[0] (.names)                                          1.338     1.338
+pv2_4_4_.out[0] (.names)                                         0.195     1.533
+out:pv2_4_4_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 42
+Startpoint: tin_pv6_2_2_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv6_2_2_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv6_2_2_.inpad[0] (.input)                                   0.000     0.000
+pv6_2_2_.in[0] (.names)                                          1.338     1.338
+pv6_2_2_.out[0] (.names)                                         0.195     1.533
+out:pv6_2_2_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 43
+Startpoint: tin_pv6_4_4_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv6_4_4_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv6_4_4_.inpad[0] (.input)                                   0.000     0.000
+pv6_4_4_.in[0] (.names)                                          1.338     1.338
+pv6_4_4_.out[0] (.names)                                         0.195     1.533
+out:pv6_4_4_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 44
+Startpoint: tin_pv2_5_5_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv2_5_5_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv2_5_5_.inpad[0] (.input)                                   0.000     0.000
+pv2_5_5_.in[0] (.names)                                          1.338     1.338
+pv2_5_5_.out[0] (.names)                                         0.195     1.533
+out:pv2_5_5_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 45
+Startpoint: tin_pv11_6_6_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv11_6_6_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv11_6_6_.inpad[0] (.input)                                  0.000     0.000
+pv11_6_6_.in[0] (.names)                                         1.338     1.338
+pv11_6_6_.out[0] (.names)                                        0.195     1.533
+out:pv11_6_6_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 46
+Startpoint: tin_pv4_2_2_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv4_2_2_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv4_2_2_.inpad[0] (.input)                                   0.000     0.000
+pv4_2_2_.in[0] (.names)                                          1.338     1.338
+pv4_2_2_.out[0] (.names)                                         0.195     1.533
+out:pv4_2_2_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 47
+Startpoint: tin_pv2_3_3_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv2_3_3_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv2_3_3_.inpad[0] (.input)                                   0.000     0.000
+pv2_3_3_.in[0] (.names)                                          1.338     1.338
+pv2_3_3_.out[0] (.names)                                         0.195     1.533
+out:pv2_3_3_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 48
+Startpoint: tin_pv10_3_3_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv10_3_3_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv10_3_3_.inpad[0] (.input)                                  0.000     0.000
+pv10_3_3_.in[0] (.names)                                         1.338     1.338
+pv10_3_3_.out[0] (.names)                                        0.195     1.533
+out:pv10_3_3_.outpad[0] (.output)                                1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#Path 49
+Startpoint: tin_pv6_7_7_.inpad[0] (.input clocked by pclk)
+Endpoint  : out:pv6_7_7_.outpad[0] (.output clocked by pclk)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock pclk (rise edge)                                           0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+tin_pv6_7_7_.inpad[0] (.input)                                   0.000     0.000
+pv6_7_7_.in[0] (.names)                                          1.338     1.338
+pv6_7_7_.out[0] (.names)                                         0.195     1.533
+out:pv6_7_7_.outpad[0] (.output)                                 1.338     2.871
+data arrival time                                                          2.871
+
+clock pclk (rise edge)                                          10.000    10.000
+clock source latency                                             0.000    10.000
+clock uncertainty                                                0.000    10.000
+output external delay                                            0.000    10.000
+data required time                                                        10.000
+--------------------------------------------------------------------------------
+data required time                                                        10.000
+data arrival time                                                         -2.871
+--------------------------------------------------------------------------------
+slack (MET)                                                                7.129
+
+
+#End of timing report

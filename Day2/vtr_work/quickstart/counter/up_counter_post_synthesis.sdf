@@ -1,0 +1,607 @@
+(DELAYFILE
+    (SDFVERSION "2.1")
+    (DESIGN "up_counter")
+    (VENDOR "verilog-to-routing")
+    (PROGRAM "vpr")
+    (VERSION "8.1.0-dev+5845ee0f4")
+    (DIVIDER /)
+    (TIMESCALE 1 ps)
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^enable_output_0_0_to_lut_n22_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (287.84:287.84:287.84) (287.84:287.84:287.84))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^enable_output_0_0_to_lut_n37_input_0_4)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (287.84:287.84:287.84) (287.84:287.84:287.84))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^enable_output_0_0_to_lut_n32_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (287.84:287.84:287.84) (287.84:287.84:287.84))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^enable_output_0_0_to_lut_n27_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (441.951:441.951:441.951) (441.951:441.951:441.951))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^clk_output_0_0_to_latch_up_counter\^out\~0_FF_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (42.43:42.43:42.43) (42.43:42.43:42.43))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^clk_output_0_0_to_latch_up_counter\^out\~1_FF_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (42.43:42.43:42.43) (42.43:42.43:42.43))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^clk_output_0_0_to_latch_up_counter\^out\~2_FF_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (42.43:42.43:42.43) (42.43:42.43:42.43))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^clk_output_0_0_to_latch_up_counter\^out\~3_FF_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (42.43:42.43:42.43) (42.43:42.43:42.43))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^reset_output_0_0_to_lut_n22_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (364.011:364.011:364.011) (364.011:364.011:364.011))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^reset_output_0_0_to_lut_n37_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (364.011:364.011:364.011) (364.011:364.011:364.011))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^reset_output_0_0_to_lut_n32_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (364.011:364.011:364.011) (364.011:364.011:364.011))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_up_counter\^reset_output_0_0_to_lut_n27_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (364.011:364.011:364.011) (364.011:364.011:364.011))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n22_output_0_0_to_latch_up_counter\^out\~0_FF_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n27_output_0_0_to_latch_up_counter\^out\~3_FF_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n32_output_0_0_to_latch_up_counter\^out\~2_FF_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n37_output_0_0_to_latch_up_counter\^out\~1_FF_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_vcc_output_0_0_to_adder_up_counter\^ADD\~4\-0\[0\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (295:295:295) (295:295:295))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_vcc_output_0_0_to_adder_up_counter\^ADD\~4\-1\[0\]_input_1_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (295:295:295) (295:295:295))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_adder_up_counter\^ADD\~4\-0\[0\]_output_0_0_to_adder_up_counter\^ADD\~4\-1\[0\]_input_2_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_adder_up_counter\^ADD\~4\-1\[0\]_output_0_0_to_adder_up_counter\^ADD\~4\-2\[0\]_input_2_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_adder_up_counter\^ADD\~4\-1\[0\]_output_1_0_to_lut_n22_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (100:100:100) (100:100:100))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_gnd_output_0_0_to_adder_up_counter\^ADD\~4\-0\[0\]_input_1_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (295:295:295) (295:295:295))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_gnd_output_0_0_to_adder_up_counter\^ADD\~4\-2\[0\]_input_1_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (295:295:295) (295:295:295))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_gnd_output_0_0_to_adder_up_counter\^ADD\~4\-3\[0\]_input_1_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (295:295:295) (295:295:295))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_gnd_output_0_0_to_adder_up_counter\^ADD\~4\-4\[0\]_input_1_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (295:295:295) (295:295:295))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_adder_up_counter\^ADD\~4\-2\[0\]_output_0_0_to_adder_up_counter\^ADD\~4\-3\[0\]_input_2_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_adder_up_counter\^ADD\~4\-2\[0\]_output_1_0_to_lut_n37_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (100:100:100) (100:100:100))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_adder_up_counter\^ADD\~4\-3\[0\]_output_0_0_to_adder_up_counter\^ADD\~4\-4\[0\]_input_2_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_adder_up_counter\^ADD\~4\-3\[0\]_output_1_0_to_lut_n32_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (100:100:100) (100:100:100))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_adder_up_counter\^ADD\~4\-4\[0\]_output_1_0_to_lut_n27_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (100:100:100) (100:100:100))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~0_FF_output_0_0_to_lut_n22_input_0_4)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (120:120:120) (120:120:120))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~0_FF_output_0_0_to_adder_up_counter\^ADD\~4\-1\[0\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (315:315:315) (315:315:315))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~0_FF_output_0_0_to_up_counter\^out\~0_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (903.734:903.734:903.734) (903.734:903.734:903.734))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~1_FF_output_0_0_to_lut_n37_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (120:120:120) (120:120:120))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~1_FF_output_0_0_to_adder_up_counter\^ADD\~4\-2\[0\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (315:315:315) (315:315:315))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~1_FF_output_0_0_to_up_counter\^out\~1_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (596.396:596.396:596.396) (596.396:596.396:596.396))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~2_FF_output_0_0_to_lut_n32_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (120:120:120) (120:120:120))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~2_FF_output_0_0_to_adder_up_counter\^ADD\~4\-3\[0\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (315:315:315) (315:315:315))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~2_FF_output_0_0_to_up_counter\^out\~2_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (286.405:286.405:286.405) (286.405:286.405:286.405))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~3_FF_output_0_0_to_lut_n27_input_0_4)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (120:120:120) (120:120:120))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~3_FF_output_0_0_to_adder_up_counter\^ADD\~4\-4\[0\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (315:315:315) (315:315:315))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_up_counter\^out\~3_FF_output_0_0_to_up_counter\^out\~3_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2990.42:2990.42:2990.42) (2990.42:2990.42:2990.42))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n22)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[1] out (235:235:235) (235:235:235))
+                (IOPATH in[2] out (235:235:235) (235:235:235))
+                (IOPATH in[3] out (235:235:235) (235:235:235))
+                (IOPATH in[4] out (235:235:235) (235:235:235))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_up_counter\^out\~0_FF)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (124:124:124) (124:124:124))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (66:66:66))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n37)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (235:235:235) (235:235:235))
+                (IOPATH in[1] out (235:235:235) (235:235:235))
+                (IOPATH in[2] out (235:235:235) (235:235:235))
+                (IOPATH in[4] out (235:235:235) (235:235:235))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_up_counter\^out\~1_FF)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (124:124:124) (124:124:124))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (66:66:66))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n32)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (235:235:235) (235:235:235))
+                (IOPATH in[1] out (235:235:235) (235:235:235))
+                (IOPATH in[2] out (235:235:235) (235:235:235))
+                (IOPATH in[3] out (235:235:235) (235:235:235))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_up_counter\^out\~2_FF)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (124:124:124) (124:124:124))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (66:66:66))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n27)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[1] out (235:235:235) (235:235:235))
+                (IOPATH in[2] out (235:235:235) (235:235:235))
+                (IOPATH in[3] out (235:235:235) (235:235:235))
+                (IOPATH in[4] out (235:235:235) (235:235:235))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_up_counter\^out\~3_FF)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (124:124:124) (124:124:124))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (66:66:66))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_gnd)
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_vcc)
+    )
+    
+    (CELL
+        (CELLTYPE "adder")
+        (INSTANCE adder_up_counter\^ADD\~4\-0\[0\])
+        (DELAY
+            (ABSOLUTE
+                (IOPATH a cout (300:300:300))
+                (IOPATH b cout (300:300:300))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "adder")
+        (INSTANCE adder_up_counter\^ADD\~4\-1\[0\])
+        (DELAY
+            (ABSOLUTE
+                (IOPATH a cout (300:300:300))
+                (IOPATH b cout (300:300:300))
+                (IOPATH cin cout (10:10:10))
+                (IOPATH a sumout (300:300:300))
+                (IOPATH b sumout (300:300:300))
+                (IOPATH cin sumout (300:300:300))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "adder")
+        (INSTANCE adder_up_counter\^ADD\~4\-2\[0\])
+        (DELAY
+            (ABSOLUTE
+                (IOPATH a cout (300:300:300))
+                (IOPATH b cout (300:300:300))
+                (IOPATH cin cout (10:10:10))
+                (IOPATH a sumout (300:300:300))
+                (IOPATH b sumout (300:300:300))
+                (IOPATH cin sumout (300:300:300))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "adder")
+        (INSTANCE adder_up_counter\^ADD\~4\-3\[0\])
+        (DELAY
+            (ABSOLUTE
+                (IOPATH a cout (300:300:300))
+                (IOPATH b cout (300:300:300))
+                (IOPATH cin cout (10:10:10))
+                (IOPATH a sumout (300:300:300))
+                (IOPATH b sumout (300:300:300))
+                (IOPATH cin sumout (300:300:300))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "adder")
+        (INSTANCE adder_up_counter\^ADD\~4\-4\[0\])
+        (DELAY
+            (ABSOLUTE
+                (IOPATH a sumout (300:300:300))
+                (IOPATH b sumout (300:300:300))
+                (IOPATH cin sumout (300:300:300))
+            )
+        )
+    )
+)
