@@ -7,7 +7,8 @@ This Repository contains basic details related to the usage of OpenFPGA Framewor
 # Table of Contents
 - [Introduction to FPGA and Vivado Flow (with Counter) -> Day-1](#day1---fpga-and-vivado-flow)
 	- [Understanding FPGA Flow](#understanding-fpga-flow)
-	- [Download and installation of Vivado on Ubuntu](#)
+	- [FPGA Architecture](#fpga-architecture)
+	- [Download and installation of Vivado on Ubuntu](#installing-vivado-(on-ubuntu))
 	- [Implementing Counter Design](#)
 - [Introduction to VTR Flow and VPR Flow](#)
 	- [Installation of VTR](#)
@@ -39,9 +40,12 @@ Day 1 can be divide into 3 major parts
 ## Understanding FPGA Flow
 FPGA Flow can be divided into several phases as depicted in the figure
 
--- figure
---- source
-Detailed content is present [here]()
+![FPGA-Design-Flow](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day1/Classical-FPGA-design-flow.png "FPGA-Design Flow")
+
+
+`Image Source : Pasca, Bogdan. (2011). High-performance floating-point computing on reconfigurable circuits. `
+
+Detailed content is present [here](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day1#readme)
 
 ## FPGA Architecture
 
