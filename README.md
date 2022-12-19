@@ -73,7 +73,7 @@ Bitstearm generation refers to the conversion of the design into a binary file f
 
 ## FPGA Architecture
 A usual FPGA-Field Programmable Logic Array implements logic designs with the help of Look-up-tables (LUTs), Flip-FLops and Configurable Logic Blocks(CLBs).
-
+-----
 ## Installing Vivado (on Ubuntu)
 
 Installing Vivado can be broken into 3 steps for ubuntu users.
@@ -86,14 +86,14 @@ The link is [here](https://www.xilinx.com/support/download.html)
 
 3. Install drivers 
  
-` Navigate to the below address /Vivado/20xx.x/data/xicom/cable_drivers/lin64/install_script/install_drivers 
+Navigate to the address `/Vivado/20xx.x/data/xicom/cable_drivers/lin64/install_script/install_drivers 
 on terminal`
 
 `Enter the command: ./install_drivers and wait for completion of installation. 
 now enter: sudo adduser $USER dialout `
 
 ## Implementing Counter Design
-
+Tje counter designed for this demo is a simple 8-bit Counter 
 # Introduction to VTR Flow and VPR Flow
 ## Installation of VTR
 ## Installation of VPR
