@@ -59,18 +59,32 @@ This phase involves conversion of verilog designs into gate-level netlists which
 ### Design Implementation
 This phase involves 3 steps
  1. Translation or Elaboration of the design
- 2. Placement
- 3. Routing
+ 2. Mapping
+ 3. Placement and Routing
  
-### Static Timing Analysis
+### Timing Analysis/ Simulation
+STA-Static Timing Analysis is done to the design which is required to ensure that the design has bounded period and duty cycle, and of a known phase relationship to other clock signals of interest.                         
+
 
 ### Bitstream Generation
+Bitstearm generation refers to the conversion of the design into a binary file for configuring the FPGA board. It contains information related to all the configurable parts of board which can be used to realize the logical design entered at [Design Entry](#design-entry)
 
 
 ## FPGA Architecture
 A usual FPGA-Field Programmable Logic Array implements logic designs with the help of Look-up-tables (LUTs), Flip-FLops and Configurable Logic Blocks(CLBs).
 
 ## Installing Vivado (on Ubuntu)
+
+Installing Vivado can be broken into 3 steps for ubuntu users.
+
+1. Download Self extracting files from Xilinx Vivado website.
+The link is [here](https://www.xilinx.com/support/download.html)
+* Windows users can download windows extracting file and run the installation wizard
+
+2. Open the .Deb file using package installer of your choice and install the file.
+
+3. Install drivers 
+` Navigate to 
 
 ## Implementing Counter Design
 
