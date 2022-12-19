@@ -67,7 +67,14 @@ Now running counter using VTR Flow will need the following command
     		--route_chan_width 100 
 		
 Adding an SDC file changes the command into considerations run the following command after running the previous one
-		
+
+		VTR_ROOT/vpr/vpr   \
+		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml  \
+		< >/osfpga/vtr_work/quickstart/counter_earch/counter.pre-vpr.blif   \
+		--route_chan_width 100   \
+		--sdc_file < >/osfpga/vtr_github/vtr-verilog-to-routing/doc/src/quickstart/counter.sdc
+
+## Results
 		
 
 		
