@@ -148,12 +148,12 @@ Now, installing SOFA
 ### Verifying proper installation
 ## Using SOFA for counter 
 The counter designed for this demo is a simple 8-bit Up-Counter with Clock division circuit.
-Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day1#readme) for detailed results
+Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day4#readme) for detailed results
 
 
 # Implementation of RVMyth processor with SOFA
 Same as counter any other verilog file can be run through OpenFPGA. So, taking RVMyth as the verilog file the whole flow is run.
-SOFA Implementation of RVMyth design can be referred [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day1#readme).
+SOFA Implementation of RVMyth design can be referred [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day5#readme).
 
 
 # Acknowledgements
