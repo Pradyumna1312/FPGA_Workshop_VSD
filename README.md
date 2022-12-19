@@ -44,8 +44,14 @@ FPGA Flow can be divided into several phases as depicted in the figure
 Detailed content is present [here]()
 
 ## FPGA Architecture
+
 A usual FPGA-Field Programmable Logic Array implements logic designs with the help of Look-up-tables (LUTs), Flip-FLops and Configurable Logic Blocks(CLBs).
------
+Flip flops are bistable monovibrators which can be used for storing 1 bit of data with the help of control signals commonly clock and reset. These Flip-Flops are used to store bits which configure the FPGA.
+
+So what are CLBs? LUTs?
+CLBs stands for Configurable Logic Blocks which s the name implies are Logic Blocks which can be configured by giving some inputs as it was modeled. 
+So how does it get configured? These CLBs contain Logic gates and LUTs which with the help of 
+
 ## Installing Vivado (on Ubuntu)
 
 Installing Vivado can be broken into 3 steps for ubuntu users.
@@ -65,8 +71,12 @@ on terminal`
 now enter: sudo adduser $USER dialout `
 
 ## Implementing Counter Design
-Tje counter designed for this demo is a simple 8-bit Counter 
+The counter designed for this demo is a simple 8-bit Up-Counter. 
+
+The design of the counter is as shown.
+
 # Introduction to VTR Flow and VPR Flow
+
 ## Installation of VTR
 ## Installation of VPR
 
