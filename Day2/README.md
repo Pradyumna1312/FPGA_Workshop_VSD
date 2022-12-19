@@ -35,4 +35,45 @@ Ideally no errors should pop-up
 ## Implementing Counter design using VTR-VPR Flow
 The counter designed for this demo is a simple 4-bit Up-Counter.
 
+For starting the flow we need to first assign 
+		
+		$VTR_ROOT=<VTR downloaded path>
+
+Verify the VPR functioning by running tseng_en circuit on Earch architecture. VPR Flow can be run in two ways 
+ 1. Manual 
+ 2. Automated
+
+Using automated flow for running VPR of tseng requires following command 
+
+		$VTR_ROOT/vpr/vpr  \
+		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
+		$VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif   \
+		--route_chan_width 100
+
+If GUI is required to easily analyse then,
+
+		$VTR_ROOT/vpr/vpr\
+		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
+		$VTR_ROOT/vtr_flow/benchmarks/blif/tseng.blif  \
+		--route_chan_width 100 \
+		--disp on
+		
+Now running counter using VTR Flow will need the following command
+		
+		$VTR_ROOT/vtr_flow/scripts/run_vtr_flow.py \
+    		$VTR_ROOT/doc/src/quickstart/counter.v \
+    		$VTR_ROOT/vtr_flow/arch/timing/EArch.xml \
+    		-temp_dir . \
+    		--route_chan_width 100 
+		
+Adding an SDC file changes the command into considerations run the following command after running the previous one
+		
+		
+
+		
+
+
+
+
+		
 
