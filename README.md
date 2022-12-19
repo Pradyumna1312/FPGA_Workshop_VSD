@@ -9,7 +9,7 @@ This Repository contains basic details related to the usage of OpenFPGA Framewor
 	- [Understanding FPGA Flow](#understanding-fpga-flow)
 	- [FPGA Architecture](#fpga-architecture)
 	- [Download and installation of Vivado on Ubuntu](#installing-vivado)
-	- [Implementing Counter Design](#)
+	- [Implementing Counter Design](#implementing-counter-design)
 - [Introduction to VTR Flow and VPR Flow -> Day-2](#introduction-to-vtr-flow-using-vpr)
 	- [Installation of VTR](#installation-of-vtr)
 	- [Using VTR for counter](#implementing-counter-design-using-vtr---vpr-flow)
@@ -54,8 +54,7 @@ Flip flops are bistable monovibrators which can be used for storing 1 bit of dat
 
 So what are CLBs? LUTs?
 For more details [refer here]()
-CLBs stands for Configurable Logic Blocks which s the name implies are Logic Blocks which can be configured by giving some inputs as it was modeled. 
-So how does it get configured? These CLBs contain Logic gates and LUTs which with the help of 
+
 
 ## Installing Vivado
 
