@@ -8,25 +8,25 @@ This Repository contains basic details related to the usage of OpenFPGA Framewor
 - [Introduction to FPGA and Vivado Flow (with Counter) -> Day-1](#day1---fpga-and-vivado-flow)
 	- [Understanding FPGA Flow](#understanding-fpga-flow)
 	- [FPGA Architecture](#fpga-architecture)
-	- [Download and installation of Vivado on Ubuntu](#installing-vivado-(on-ubuntu))
+	- [Download and installation of Vivado on Ubuntu](#installing-vivado)
 	- [Implementing Counter Design](#)
-- [Introduction to VTR Flow and VPR Flow](#)
-	- [Installation of VTR](#)
-	- [Using SOFA for counter](#)
-	- [Results](#)
-- [Introduction to RVMyth and its implementation with Vivado flow](#)
-	- [RVMyth Intro]()
+- [Introduction to VTR Flow and VPR Flow -> Day-2](#introduction-to-vtr-flow-using-vpr)
+	- [Installation of VTR](#installation-of-vtr)
+	- [Using VTR for counter](#implementing-counter-design-using-vtr---vpr-flow)
+	- [Results](#results)
+- [Introduction to RVMyth and its implementation with Vivado flow -> Day-3](#introduction-to-rvmyth-and-its-implementation-with-vivado-flow)
+	- [RVMyth Intro](#rvmyth-introduction)
 	- [Vivado Implementation]()
 	- [Results]()
-- [Introduction to SOFA - (Skywater Opensource FPGAs) and its implementation using counter as a module](#Day4)
+- [Introduction to SOFA - (Skywater Opensource FPGAs) and its implementation using counter as a module -> Day-4](#Day4)
 	- [Installation of SOFA](#)
 	- [Verifying proper installation](#)
 	- [Using SOFA for counter](#)
 	- [Results](#)
-- [Implementation of RVMyth processor with the help of SOFA](#Day5)
+- [Implementation of RVMyth processor with the help of SOFA -> Day-5](#Day5)
 	- [SOFA Implementation]()
 	- [Results]()
-- [Acknowledgements](#Acknowledgements)
+- [Acknowledgements](#acknowledgements)
 
 * NOTE: The workshop materials can be found [here](https://github.com/nandithaec/fpga_workshop_collaterals)
 
@@ -53,10 +53,11 @@ A usual FPGA-Field Programmable Logic Array implements logic designs with the he
 Flip flops are bistable monovibrators which can be used for storing 1 bit of data with the help of control signals commonly clock and reset. These Flip-Flops are used to store bits which configure the FPGA.
 
 So what are CLBs? LUTs?
+For more details [refer here]()
 CLBs stands for Configurable Logic Blocks which s the name implies are Logic Blocks which can be configured by giving some inputs as it was modeled. 
 So how does it get configured? These CLBs contain Logic gates and LUTs which with the help of 
 
-## Installing Vivado (on Ubuntu)
+## Installing Vivado
 
 Installing Vivado can be broken into 3 steps for ubuntu users.
 
@@ -68,24 +69,54 @@ The link is [here](https://www.xilinx.com/support/download.html)
 
 3. Install drivers 
  
-Navigate to the address `/Vivado/20xx.x/data/xicom/cable_drivers/lin64/install_script/install_drivers 
-on terminal`
+	Navigate to the address `/Vivado/20xx.x/data/xicom/cable_drivers/lin64/install_script/install_drivers on terminal`
 
-`Enter the command: ./install_drivers and wait for completion of installation. 
-now enter: sudo adduser $USER dialout `
+Enter the commands:
+
+		./install_drivers and wait for completion of installation. 
+		sudo adduser $USER dialout 	
 
 ## Implementing Counter Design
 The counter designed for this demo is a simple 8-bit Up-Counter. 
 
 The design of the counter is as shown.
 
-# Introduction to VTR Flow and VPR Flow
+# Introduction to VTR Flow using VPR
+- The Verilog-to-Routing (VTR) project is a world-wide collaborative effort to provide an open-source framework for conducting FPGA architecture and CAD research and development. The VTR design flow takes as input a Verilog description of a digital circuit, and a description of the target FPGA architecture. It then performs:
+
+    - Elaboration & Synthesis (ODIN II)
+    - Logic Optimization & Technology Mapping (ABC)
+    - Packing, Placement, Routing & Timing Analysis (VPR)
+
+	to generate FPGA speed and area results. VTR includes a set of benchmark designs known to work with the design flow.
+
+- VPR (Versatile Place and Route) is an open source academic CAD tool designed for the exploration of new FPGA architectures and CAD algorithms, at the packing, placement and routing phases of the CAD flow. Since its public introduction, VPR has been used extensively in many academic projects partly because it is robust, well documented, easy-to-use, and can flexibly target a range of architectures.
+
+	VPR takes, as input, a description of an FPGA architecture along with a technology-mapped user circuit. It then performs packing, placement, and routing to map the circuit onto the FPGA. The output of VPR includes the FPGA configuration needed to implement the circuit and statistics about the final mapped design (eg. critical path delay, area, etc).
+
+Detailed Documentation for VTR Flow using VPR can be found [here](https://docs.verilogtorouting.org/en/latest/quickstart/)
 
 ## Installation of VTR
-## Installation of VPR
+Step 1: Clone the VTR git repo using
+
+	git clone https://github.com/verilog-to-routing/vtr-verilog-to-routing.git
+
+Step 2: VTR requires several system packages. So, run the following script to install the required packages from the top-level directory on a Ubuntu system and to make the file:
+
+	./install_apt_packages.sh
+	make
+	
+Make command will build all the required tools.
 
 ### Verifying proper installation
+To verify proper installation run the following command
+	
+	./vtr_flow/scripts/run_vtr_task.py regression_tests/vtr_reg_basic/basic_timing
+	
+Ideally no errors should pop-up
+
 ## Implementing Counter design using VTR-VPR Flow
+
 
 ## Results
 
