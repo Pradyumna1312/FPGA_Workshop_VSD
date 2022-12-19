@@ -125,7 +125,8 @@ A RISC-V ISA is defined as a base integer ISA, which must be present in any impl
 More details on RISC-V ISA can be obtained [here](https://github.com/shivanishah269/risc-v-core).
 
 ## Vivado Implementation
-The counter designed for this demo is a simple 8-bit Up-Counter with Clock division circuit.
+The counter designed for this demo is a simple 4-bit Up-Counter.
+
 Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day3#readme) for detailed results
 
 
