@@ -55,5 +55,4 @@ So how does it get configured? These CLBs contain Logic gates and LUTs which bri
 ![Counter_RTL](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day1/Counter-with-Clkdiv.png)
 ### Power Report:
 ![Power_Rep](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/master/Day1/power.png)
-### Timing Report:
-![]()
+
