@@ -47,7 +47,8 @@ This phase refers to the conversion of given specifications and constraints into
  1. Behavioral modeling
  2. Dataflow modeling
  3. Structural modeling
-	Most common Design Entry Formats include Verilog and VHDL. This project uses Verilog for Synthesisable RTL Design Entry.
+
+Most common Design Entry Formats include Verilog and VHDL. This project uses Verilog for Synthesisable RTL Design Entry.
 	
 ### Functional Simulation:
 This phase involves development of test environment which can be used for verifying the design.
@@ -84,7 +85,12 @@ The link is [here](https://www.xilinx.com/support/download.html)
 2. Open the .Deb file using package installer of your choice and install the file.
 
 3. Install drivers 
-` Navigate to 
+ 
+` Navigate to the below address /Vivado/20xx.x/data/xicom/cable_drivers/lin64/install_script/install_drivers 
+on terminal`
+
+`Enter the command: ./install_drivers and wait for completion of installation. 
+now enter: sudo adduser $USER dialout `
 
 ## Implementing Counter Design
 
