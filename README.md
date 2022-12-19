@@ -110,8 +110,9 @@ Ideally no errors should pop-up
 
 ## Implementing Counter design using VTR-VPR Flow
 
-The counter designed for this demo is a simple 8-bit Up-Counter with Clock division circuit.
-Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day1#readme) for detailed results
+The counter designed for this demo is a simple 4-bit Up-Counter
+.
+Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day2#readme) for detailed results
 
 
 # Introduction to RVMyth and its implementation with Vivado flow
@@ -122,10 +123,12 @@ A RISC-V ISA is defined as a base integer ISA, which must be present in any impl
    - Width of the integer registers (XLEN)
    - Corresponding size of the address space
    - Number of integer registers (32 in RISC-V)
+   
 More details on RISC-V ISA can be obtained [here](https://github.com/shivanishah269/risc-v-core).
 
 ## Vivado Implementation
-The counter designed for this demo is a simple 8-bit Up-Counter with Clock division circuit.
+The counter designed for this demo is a simple 4-bit Up-Counter.
+
 Refer [this](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day3#readme) for detailed results
 
 
