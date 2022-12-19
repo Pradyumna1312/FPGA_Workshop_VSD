@@ -93,13 +93,14 @@ The design of the counter is as shown.
 ## Results
 
 
-# Introduction to SOFA - (Skywater Opensource FPGAs) and its implementation using counter as a module
+# Introduction to SOFA - (Skywater Opensource FPGAs) 
+
 ## Installation of SOFA
 ### Verifying proper installation
 ## Using SOFA for counter 
 ## Results
 
-# Implementation of RVMyth processor with the help of SOFA
+# Implementation of RVMyth processor with SOFA
 ## SOFA Implementation
 ## Results
 
