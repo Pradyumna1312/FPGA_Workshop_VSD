@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.sim/sim_1/synth/timing/xsim/test_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gate
+INFO: [VRFC 10-311] analyzing module clk_gate_0
+INFO: [VRFC 10-311] analyzing module clk_gate_1
+INFO: [VRFC 10-311] analyzing module clk_gate_2
+INFO: [VRFC 10-311] analyzing module clk_gate_3
+INFO: [VRFC 10-311] analyzing module clk_gate_4
+INFO: [VRFC 10-311] analyzing module top_core
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sim_1/new/core_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
