@@ -19,7 +19,7 @@ module test();
 
 reg clk, reset;
 wire [7:0] out;
-
+assign out= 8'd0;
 top_core uut (clk,reset,out);
 
 //initial $sdf_annotate("/home/nanditha/Dropbox/vsd/fpga-vsd-slides/Day3/post_synth_files/up_counter_post_synthesis.sdf", uut);

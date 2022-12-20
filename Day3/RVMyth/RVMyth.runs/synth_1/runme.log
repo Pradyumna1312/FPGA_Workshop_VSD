@@ -1,0 +1,296 @@
+
+*** Running vivado
+    with args -log top_core.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_core.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source top_core.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1232.230 ; gain = 0.023 ; free physical = 133 ; free virtual = 5152
+Command: synth_design -top top_core -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8893
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/media/pradyumna/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1628.844 ; gain = 382.738 ; free physical = 191 ; free virtual = 4656
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1110.464; parent = 849.739; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2548.055; parent = 1631.816; children = 916.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_core' [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:185]
+INFO: [Synth 8-6157] synthesizing module 'clk_gate' [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:172]
+INFO: [Synth 8-6155] done synthesizing module 'clk_gate' (0#1) [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:172]
+INFO: [Synth 8-6155] done synthesizing module 'top_core' (0#1) [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:185]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[0].CPU_Xreg_value_a5_reg[0] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[1].CPU_Xreg_value_a5_reg[1] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[2].CPU_Xreg_value_a5_reg[2] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[3].CPU_Xreg_value_a5_reg[3] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[4].CPU_Xreg_value_a5_reg[4] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[5].CPU_Xreg_value_a5_reg[5] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[6].CPU_Xreg_value_a5_reg[6] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[7].CPU_Xreg_value_a5_reg[7] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[8].CPU_Xreg_value_a5_reg[8] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[9].CPU_Xreg_value_a5_reg[9] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[10].CPU_Xreg_value_a5_reg[10] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[11].CPU_Xreg_value_a5_reg[11] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[12].CPU_Xreg_value_a5_reg[12] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[13].CPU_Xreg_value_a5_reg[13] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[14].CPU_Xreg_value_a5_reg[14] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[15].CPU_Xreg_value_a5_reg[15] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[16].CPU_Xreg_value_a5_reg[16] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[18].CPU_Xreg_value_a5_reg[18] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[19].CPU_Xreg_value_a5_reg[19] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[20].CPU_Xreg_value_a5_reg[20] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[21].CPU_Xreg_value_a5_reg[21] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[22].CPU_Xreg_value_a5_reg[22] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[23].CPU_Xreg_value_a5_reg[23] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[24].CPU_Xreg_value_a5_reg[24] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[25].CPU_Xreg_value_a5_reg[25] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[26].CPU_Xreg_value_a5_reg[26] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[27].CPU_Xreg_value_a5_reg[27] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[28].CPU_Xreg_value_a5_reg[28] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[29].CPU_Xreg_value_a5_reg[29] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[30].CPU_Xreg_value_a5_reg[30] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element L1gen_CPU_Xreg[31].CPU_Xreg_value_a5_reg[31] was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:826]
+WARNING: [Synth 8-6014] Unused sequential element CPU_imem_rd_en_a1_reg was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:609]
+WARNING: [Synth 8-6014] Unused sequential element CPU_rs1_valid_a2_reg was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:780]
+WARNING: [Synth 8-6014] Unused sequential element CPU_rs2_valid_a2_reg was removed.  [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:786]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1702.781 ; gain = 456.676 ; free physical = 396 ; free virtual = 4748
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1144.684; parent = 932.407; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2679.508; parent = 1702.785; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1720.594 ; gain = 474.488 ; free physical = 388 ; free virtual = 4741
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1144.684; parent = 932.407; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2697.320; parent = 1720.598; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1728.598 ; gain = 482.492 ; free physical = 388 ; free virtual = 4741
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1144.684; parent = 932.407; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2705.324; parent = 1728.602; children = 976.723
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+WARNING: [Synth 8-327] inferring latch for variable 'latched_clk_en_reg' [/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.srcs/sources_1/new/top_core.v:176]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1737.504 ; gain = 491.398 ; free physical = 375 ; free virtual = 4729
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1144.684; parent = 932.407; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2714.230; parent = 1737.508; children = 976.723
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 7     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 62    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 79    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 12    
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 170 ; free virtual = 4401
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1336.867; parent = 1125.217; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 168 ; free virtual = 4400
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (gen_clkP_CPU_rs1_valid_a2/latched_clk_en_reg) is unused and will be removed from module top_core.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 169 ; free virtual = 4402
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 168 ; free virtual = 4408
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 168 ; free virtual = 4407
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 168 ; free virtual = 4407
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 168 ; free virtual = 4407
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 168 ; free virtual = 4407
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 168 ; free virtual = 4407
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name              | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top_core    | CPU_is_s_instr_a4_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+-----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    24|
+|3     |LUT1   |     5|
+|4     |LUT2   |    77|
+|5     |LUT3   |    35|
+|6     |LUT4   |    86|
+|7     |LUT5   |    74|
+|8     |LUT6   |   587|
+|9     |MUXF7  |   256|
+|10    |MUXF8  |    96|
+|11    |SRL16E |     1|
+|12    |FDRE   |  1685|
+|13    |FDSE   |   112|
+|14    |LD     |     6|
+|15    |IBUF   |     2|
+|16    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------------------+-----------+------+
+|      |Instance                     |Module     |Cells |
++------+-----------------------------+-----------+------+
+|1     |top                          |           |  3056|
+|2     |  gen_clkP_CPU_dmem_rd_en_a5 |clk_gate   |     3|
+|3     |  gen_clkP_CPU_rd_valid_a2   |clk_gate_0 |     3|
+|4     |  gen_clkP_CPU_rd_valid_a3   |clk_gate_1 |     2|
+|5     |  gen_clkP_CPU_rd_valid_a4   |clk_gate_2 |     2|
+|6     |  gen_clkP_CPU_rd_valid_a5   |clk_gate_3 |     2|
+|7     |  gen_clkP_CPU_rs2_valid_a2  |clk_gate_4 |     3|
++------+-----------------------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 168 ; free virtual = 4407
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1337.727; parent = 1126.084; children = 260.725
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2916.434; parent = 1939.711; children = 976.723
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 37 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1939.707 ; gain = 693.602 ; free physical = 169 ; free virtual = 4409
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1939.715 ; gain = 693.602 ; free physical = 169 ; free virtual = 4409
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1939.715 ; gain = 0.000 ; free physical = 159 ; free virtual = 4404
+INFO: [Netlist 29-17] Analyzing 382 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'top_core' is not ideal for floorplanning, since the cellview 'top_core' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2035.512 ; gain = 0.000 ; free physical = 164 ; free virtual = 4432
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  LD => LDCE (inverted pins: G): 6 instances
+
+Synth Design complete, checksum: b8c3876f
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:43 . Memory (MB): peak = 2035.512 ; gain = 803.281 ; free physical = 377 ; free virtual = 4645
+INFO: [Common 17-1381] The checkpoint '/home/pradyumna/Verilog_files/VSD-IAT/Day3/RVMyth/RVMyth.runs/synth_1/top_core.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_core_utilization_synth.rpt -pb top_core_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 20 08:41:16 2022...
