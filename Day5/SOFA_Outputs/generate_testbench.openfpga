@@ -12,15 +12,15 @@
 #vpr ${VPR_ARCH_FILE} ${VPR_TESTBENCH_BLIF} --clock_modeling ideal --device ${OPENFPGA_VPR_DEVICE_LAYOUT} --route_chan_width ${OPENFPGA_VPR_ROUTE_CHAN_WIDTH} --absorb_buffer_luts off
 
 # RVMyth timing and post implementation netlist. Remove the comment from the next line
-#vpr ${VPR_ARCH_FILE} ${VPR_TESTBENCH_BLIF} --clock_modeling ideal --device ${OPENFPGA_VPR_DEVICE_LAYOUT}  --absorb_buffer_luts off --sdc_file < >/SOFA/BENCHMARK/rvmyth/mythcore.sdc --gen_post_synthesis_netlist on
+#vpr ${VPR_ARCH_FILE} ${VPR_TESTBENCH_BLIF} --clock_modeling ideal --device ${OPENFPGA_VPR_DEVICE_LAYOUT}  --absorb_buffer_luts off --sdc_file /home/pradyumna/SOFA/BENCHMARK/rvmyth/mythcore.sdc --gen_post_synthesis_netlist on
 
 
 #RVMyth power: removed the route_channel_width. Remove the comment from the next line
-vpr ${VPR_ARCH_FILE} ${VPR_TESTBENCH_BLIF} --clock_modeling ideal --device ${OPENFPGA_VPR_DEVICE_LAYOUT}  --absorb_buffer_luts off --power --activity_file < >/SOFA/FPGA1212_QLSOFA_HD_PNR/FPGA1212_QLSOFA_HD_task/latest/vpr_arch/core/MIN_ROUTE_CHAN_WIDTH/core_ace_out.act   --tech_properties < >/vtr_github/vtr-verilog-to-routing/vtr_flow/tech/PTM_45nm/45nm.xml 
+vpr ${VPR_ARCH_FILE} ${VPR_TESTBENCH_BLIF} --clock_modeling ideal --device ${OPENFPGA_VPR_DEVICE_LAYOUT}  --absorb_buffer_luts off --power --activity_file /home/pradyumna/SOFA/FPGA1212_QLSOFA_HD_PNR/FPGA1212_QLSOFA_HD_task/latest/vpr_arch/core/MIN_ROUTE_CHAN_WIDTH/core_ace_out.act   --tech_properties /home/pradyumna/vtr-verilog-to-routing/vtr_flow/tech/PTM_45nm/45nm.xml 
 
 
 
-#--power --activity_file=core_ace_out.txt   --tech_properties=< >/vtr_github/vtr-verilog-to-routing/vtr_flow/tech/PTM_45nm/45nm.xml --gen_post_synthesis_netlist on --sdc_file < >/SOFA/BENCHMARK/rvmyth/mythcore.sdc  
+#--power --activity_file=core_ace_out.txt   --tech_properties=home/pradyumna/vtr-verilog-to-routing/vtr_flow/tech/PTM_45nm/45nm.xml --gen_post_synthesis_netlist on --sdc_file /home/pradyumna/SOFA/BENCHMARK/rvmyth/mythcore.sdc  
 
 # Read OpenFPGA architecture definition
 read_openfpga_arch -f ${OPENFPGA_ARCH_FILE}
