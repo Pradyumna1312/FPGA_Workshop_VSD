@@ -31,16 +31,16 @@ Copy your verilog file to FPGA1212_QLSOFA_HD_task/BENCHMARK directory and modify
 Modify FPGA1212_QLSOFA_HD_task/config/task_simulation.conf file: Line 32 and 35: bench0 and bench_top
 
 
-# ======== Run example OpenFPGA Task ========
+### ======== Run example OpenFPGA Task ========
 	make runOpenFPGA
 
-# ======== To view the results ========
+### ======== To view the results ========
 	
 	cat FPGA1212_QLSOFA_HD_task/latest/task_result.csv
 	<pwd>/SOFA/FPGA1212_QLSOFA_HD_PNR/FPGA1212_QLSOFA_HD_task/latest/vpr_arch/up_counter/MIN_ROUTE_CHAN_WIDTH
 
 
-# ======== To view detailed log ========
+### ======== To view detailed log ========
 	cat codeopen FPGA1212_QLSOFA_HD_task/latest/vpr_arch/top/MIN_ROUTE_CHAN_WIDTH/**/openfpgashell.log
 
 
