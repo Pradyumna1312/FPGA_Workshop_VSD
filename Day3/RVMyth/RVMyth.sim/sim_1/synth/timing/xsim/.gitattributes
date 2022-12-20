@@ -1,1 +1,1 @@
-*.tcl linguist-language=text
+tcl/* linguist-vendored
