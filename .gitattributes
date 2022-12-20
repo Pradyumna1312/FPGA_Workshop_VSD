@@ -1,2 +1,2 @@
 *tcl linguist-vendored
-/Day3/RVMyth/*.tcl linguist-vendored 
+/Day3/RVMyth/**.tcl linguist-vendored 
