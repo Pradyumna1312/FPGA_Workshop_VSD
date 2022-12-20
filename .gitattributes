@@ -1,1 +1,2 @@
-*.tcl linguist-vendored
+*tcl linguist-vendored
+FPGA_Workshop_VSD/Day3/RVMyth/**.tcl linguist-vendored 
