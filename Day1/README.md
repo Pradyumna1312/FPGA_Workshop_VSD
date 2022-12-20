@@ -45,7 +45,6 @@ For more details
 CLBs stands for Configurable Logic Blocks which s the name implies are Logic Blocks which can be configured by giving some inputs as it was modeled. 
 So how does it get configured? These CLBs contain Logic gates and LUTs which brings in the quality of reconfigurability.
 
-# Implementation
 
 
 # Results
