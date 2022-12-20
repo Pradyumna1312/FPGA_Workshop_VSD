@@ -1,0 +1,7 @@
+create_clock -period 15.000 -name clk -waveform {0.000 7.500} [get_ports clk]
+set_input_delay -clock [get_clocks clk] -min -add_delay 0.600 [get_ports rst]
+set_input_delay -clock [get_clocks clk] -max -add_delay 2.000 [get_ports rst]
+set_property C_CLK_INPUT_FREQ_HZ 300000000 [get_debug_cores dbg_hub]
+set_property C_ENABLE_CLK_DIVIDER false [get_debug_cores dbg_hub]
+set_property C_USER_SCAN_CHAIN 1 [get_debug_cores dbg_hub]
+connect_debug_port dbg_hub/clk [get_nets clk_IBUF_BUFG]
