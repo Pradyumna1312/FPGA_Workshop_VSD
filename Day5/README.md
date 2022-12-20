@@ -1,7 +1,7 @@
 ## There are some erros that occured during installation and/or during running like 
 
 
-![Error-1](#Day5/1.png)
+![Error-1](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/main/Day5/1.png)
 
 ![Error-2](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/blob/main/Day5/2.png "ERROR-2")
 
