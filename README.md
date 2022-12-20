@@ -47,7 +47,7 @@ A usual FPGA-Field Programmable Logic Array implements logic designs with the he
 Flip flops are bistable monovibrators which can be used for storing 1 bit of data with the help of control signals commonly clock and reset. These Flip-Flops are used to store bits which configure the FPGA.
 
 So what are CLBs? LUTs?
-For more details [refer here]()
+For more details [refer here](https://github.com/Pradyumna1312/FPGA_Workshop_VSD/tree/main/Day1#readme)
 
 
 ## Installing Vivado
